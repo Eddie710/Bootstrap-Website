@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JoeRestarant</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./joe.css">
+  <style>
+    /* Custom styles */
+    body {
+      padding-top: 80px;
+    }
+    .circle {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      background-color: #ccc;
+      margin: 20px;
+      display: inline-block;
+    }
+    .product-card {
+      width: 200px;
+      margin: 10px;
+      text-align: center;
+    }
+    .product-image {
+      width: 150px;
+      height: 150px;
+      margin: 0 auto;
+      background-color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-warning fixed-top ">
+    <a class="navbar-brand" href="#" id="logo">JoeRestarant</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#shop">Shop</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="container">
+    <h1>Welcome to Joestaraunt</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in ipsum nisi.</p>
+    <div class="row">
+      <div class="col-md-4 text-center">
+        <div class="circle" id="c1"></div>
+        <h3>Dinner Options</h3>
+        <p>Try our ride range of unique dinner options, we have something for everybody.</p>
+      </div>
+      <div class="col-md-4 text-center">
+        <div class="circle" id="c2"></div>
+        <h3>Our Standwiches</h3>
+        <p>We have our famous Katsu sandwich and many more to pick from, or even better you can make your own!</p>
+      </div>
+      <div class="col-md-4 text-center">
+        <div class="circle" id="c3"></div>
+        <h3>Fresh Iced Tea</h3>
+        <p>We house make fresh iced tea every day, it's one of our most popular items.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="bg-success py-5">
+    <div class="container">
+      <h2>About Joestaraunt</h2>
+      <p>Welcome to Joestaraunt, where exceptional dining experiences await. Our restaurant is dedicated to providing you with a memorable culinary journey that celebrates the art of food. From our carefully crafted dishes to our attentive service, we strive to create an inviting and enjoyable atmosphere for all our guests. Join us as we combine quality ingredients, expert techniques, and a passion for flavor to deliver a truly satisfying dining experience.</p>
+    </div>
+  </section>
+
+  <!-- Shop Section -->
+
+  <section id="shop" class="container">
+    <h2>Shop</h2>
+    <div class="row">
+      <div class="product-card">
+        <div class="product-image" id="p1"></div>
+        <h4>Crimson Cod</h4>
+        <p>This meal has been known to make you feel rejuvinated after eating it.</p>
+    
+      </div>
+      <div class="product-card">
+        <div class="product-image" id="p2"></div>
+        <h4>Magican's Roast</h4>
+        <p>This roast beef is slow cooked to perfection for a whole day before it reaches your plate.</p>
+      </div>
+
+      <div class="product-card">
+        <div class="product-image" id="p3"></div>
+        <h4>Stardust di Spaghetti</h4>
+        <p>This spaghetti is a common marinara but with our secerete ingredient of stardust.</p>
+      </div>
+
+      <div class="product-card">
+        <div class="product-image" id="p4"></div>
+        <h4>Creamy Crusuader Stew</h4>
+        <p>Our homemade stew has flavors from all over, including india and egypt. </p>
+      </div>
+
+      <div class="product-card">
+        <div class="product-image" id="p5"></div>
+        <h4>Requiem Rissotto</h4>
+        <p>Our Requiem Rissoto is flaked with 24 karat gold and was made by a guy that had a dream.</p>
+      </div>
+
+      <div class="product-card">
+        <div class="product-image" id="p6"></div>
+        <h4>Za Hando's Ham and Cheese</h4>
+        <p>You would need a huge stomach to finish this food, or somewhere else to put it.</p>
+      </div>
+
+      <div class="product-card">
+        <div class="product-image" id="p7"></div>
+        <h4>Bruno's Burger's</h4>
+        <p>We have a ride varity of gourmet burgers that will leave you feeling zippy.</p>
+      </div>
+
+      <div class="product-card">
+        <div class="product-image" id="p8"></div>
+        <h4>Ora Ozark Pudding</h4>
+        <p>You will devour this so fast you won't be able to say, ora.</p>
+      </div>
+
+      <div class="product-card">
+        <div class="product-image" id="p9"></div>
+        <h4>Dio's Dacquoise</h4>
+        <p>This desert is the best hand's down, it's muda to think otherwise.</p>
+      </div>
+
+      <div class="product-card">
+        <div class="product-image" id="p10"></div>
+        <h4>Golden Wind Gelato</h4>
+        <p>Our fresh gelato is always a good way to end your meal.</p>
+    
+      </div>
+      <!-- Add more product cards here -->
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <footer id="contact" class="bg-warning text-white py-5">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in ipsum nisi.</p>
+      <form>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" class="form-control" id="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" class="form-control" id="email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea class="form-control" id="message" rows="3" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

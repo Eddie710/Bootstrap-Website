@@ -1,0 +1,80 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+#logo{
+    color: black;
+}
+
+a{
+    color: black;
+}
+
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+}
+
+.product-image{
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+.product-card>h4{
+font-size: 15px;
+}
+
+.product-card>p{
+font-size: 12px;
+}
+
+#c1{
+    background-image: url("https://cdn-ckdai.nitrocdn.com/DtMOhmpURIuhaPKXIRUXJNKsehnBjaig/assets/images/optimized/rev-83e69b0/wp-content/uploads/2021/10/shutterstock_155354786.jpg");
+}
+
+#c2{
+    background-image: url("https://static.whatsinseason.com.au/canvas/images/D8JDUqgie3aVoiVY2g9RpBG5HeNt6pQnktby0lTT.jpg");
+}
+
+#c3{
+    background-image: url("https://thebusybaker.ca/wp-content/uploads/2020/04/healthy-homemade-iced-tea-fb-ig-1-scaled.jpg");
+}
+
+
+
+#p1{
+    background-image: url("https://discovery.cathaypacific.com/wp-content/uploads/2017/03/Hero-food-nobu-black-cod-1.jpg");
+}
+#p2{
+    background-image: url("https://media.istockphoto.com/id/1166248187/photo/venison-elk-sirloin-tip-roast.jpg?s=612x612&w=0&k=20&c=1UaWZE9MD2x8pRNmZj8TdB1nzZVesc3_VoUa45kSXuY=");
+}
+#p3{
+    background-image: url("https://thefoodcharlatan.com/wp-content/uploads/2023/04/Spaghetti-Sauce-Recipe-6.jpg");
+}
+#p4{
+    background-image: url("https://www.onceuponachef.com/images/2011/02/beef-stew-with-carrots-potatoes.jpg");
+}
+#p5{
+    background-image: url("https://www.acouplecooks.com/wp-content/uploads/2021/12/Risotto-Recipe-011.jpg");
+}
+#p6{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBeFPf4OcsDyNagxhlN5qOjB1iUSFMMeAhrofr9d-ZHPYJRZv0Bcxs2HB72VZoYBs2NEo&usqp=CAU");
+}
+#p7{
+    background-image: url("https://img.cdn4dd.com/cdn-cgi/image/fit=cover,width=600,height=400,format=auto,quality=80/https://doordash-static.s3.amazonaws.com/media/store/header/36451cbe-01c4-416a-9218-00b5691e7e37.jpg");
+}
+#p8{
+    background-image: url("https://hips.hearstapps.com/wdy.h-cdn.co/assets/17/07/980x490/landscape-1487016915-ozark-pudding-0317.jpg?resize=1200:*");
+}
+#p9{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/4/4b/Eggnog_mousse_cake_with_almond_dacquoise.jpg");
+}
+#p10{
+    background-image: url("https://www.insidetherustickitchen.com/wp-content/uploads/2020/06/Stracciatella-Gelato-square-Inside-the-Rustic-Kitchen.jpg");
+}
